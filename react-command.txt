@@ -5,6 +5,7 @@ npx create-react-app my-react-app   //for creat react app
 npm view react version
 =======================
 npm install react-bootstrap bootstrap@5.1.3
+npm install react-bootstrap bootstrap
 npm install --save bootstrap
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 npm install --save bootstrap@4.0.0-alpha.6
@@ -17,5 +18,11 @@ npm i react-router-dom
 npm install react-router-dom --save
 =======================
 npm install axios
+===========
+npm install react-table
+yarn add react-table
+npm i styled-components
+import {useTable} from 'react-table';
+==============
 
 
