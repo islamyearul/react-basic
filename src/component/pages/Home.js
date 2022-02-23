@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios'
-import {Navigate } from 'react-router-dom'
+//import {Navigate } from 'react-router-dom'
 
 //import { Redirect } from 'react-router'
 
@@ -31,26 +31,26 @@ class Home extends Component {
              return <li>{mylist.name}</li>
          })
 
-        if(sessionStorage.setItem("userName")==null){
-            return <Navigate to='/login'></Navigate>
-        }else{
-            return (
-                <div>
-                    <h1 style={{backgroundColor: "red", color: "white"}}>This Is Home</h1>
-                    <div>
-                        <ol>{Country}</ol>
-                    </div>
-                </div>
-            );
-        }
-        // return (
-        //     <div>
-        //         {/* <h1 style={{backgroundColor: "red", color: "white"}}>This Is Home</h1>
+        // if(sessionStorage.setItem("userName")==null){
+        //     return <Navigate to='/login'></Navigate>
+        // }else{
+        //     return (
         //         <div>
-        //             <ol>{Country}</ol>
-        //         </div> */}
-        //     </div>
-        // );
+        //             <h1 style={{backgroundColor: "red", color: "white"}}>This Is Home</h1>
+        //             <div>
+        //                 <ol>{Country}</ol>
+        //             </div>
+        //         </div>
+        //     );
+        // }
+        return (
+            <div>
+                <h1 style={{backgroundColor: "red", color: "white"}}>This Is Home</h1>
+                <div>
+                    <ol>{Country}</ol>
+                </div>
+            </div>
+        );
 
       
 
